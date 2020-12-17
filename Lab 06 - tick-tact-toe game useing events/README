@@ -1,0 +1,4 @@
+Compile:- javac TikGame.java 
+
+RUN :-   java TikGame 
+

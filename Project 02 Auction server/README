@@ -1,0 +1,27 @@
+CO 225 - Software construction
+project 2 : Auction server
+V. Karikaran 	 
+ 
+
+
+**************************essential commands to test the server
+
+compile server 	: javac Server.java
+run server 	: java Server
+
+
+to connect a client client should use nc command as follows (here port number used as 2000)
+nc <ip_address> 2000
+EX:- nc 127.0.0.1:  2000
+
+Then client will be connected to the server and ask from you the username
+after you enter your username they will ask your bidding item symbol untill you enter valid symbol
+Next it will ask your bidding value. Here value should be in double format and it consider only as a valid bid if it is higher than current price of that item.
+it will keep asking your bidding valu for that item.
+if you want to exit you can give quit command and hit enter twice more
+
+
+
+
+
+
