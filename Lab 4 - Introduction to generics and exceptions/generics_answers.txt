@@ -1,0 +1,24 @@
+1. Suppose the set currently have N number of elements and one wants to add another. How
+many comparison operations do you need?
+    N number of comparison
+
+
+2. To remove an element how many operations do you need to do? Does it change with the
+number of elements in the set?
+
+    To remove the first element we need to create N-1 size new array and copying all elements with out first element. 
+    then assign the new array as our data array this are the operations have to do. 
+    this number of operations depends on number of elements in the array   
+
+3. Suppose the items are kept sorted. Can you improve the performance of add? Explain.
+     In my implementation it doesn't make any efficient i compared with all element in array 
+
+
+4. Consider the two implementation options given for remove in the skeleton code. Which
+option is better? Why?.
+    option 1 is better because in option 1 if condition only do one operation but option2 its additionaly doing not operation .
+
+
+5. Can you use Java annotation to get rid of -Xlint flag?
+    yes we can .
+ 
